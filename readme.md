@@ -10,3 +10,12 @@ mutation createCategory {
   }
 }
 ```
+
+Example to how to find the categories:
+```
+query queryCategories {
+  id
+  name
+  description
+}
+```
